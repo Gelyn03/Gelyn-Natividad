@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <form action="add_task.php" method="post">
+        <label for="task_name">Task Name:</label>
+        <input type="text" id="task_name" name="task_name"><br><br>
+        <label for="task_description">Task Description:</label>
+        <textarea id="task_description" name="task_description"></textarea><br><br>
+        <input type="submit" value="Add Task">
+    </form>
+    <?php include 'index.php'; ?>
+</body>
+</html>
+
+
